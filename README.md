@@ -19,7 +19,7 @@ Support Vector Machines (linear), Random Forest, Multi-layer Perceptron, Gated
 Recurrent Unit, Bert. Moreover, we also make an ensemble based on voting
 between all of them.  
 
-For more details, read the [report.pdf](https://github.com/CS-433/cs-433-project-2-rainbow-triangle/blob/master/report.pdf).
+For more details, read the [report.pdf](https://github.com/GiorgioMannarini/Machine-Learning-BERT/blob/master/report.pdf).
 
 ### Results at a glance
 
@@ -117,7 +117,7 @@ to do your own preprocessing.
 
 If you want to download the preprocessed tweets then download them from 
 [this Drive link](https://drive.google.com/drive/folders/16izsD7W0SG3AF094cW0JpcfnPFRF1aXY?usp=sharing)
-and save them into the top level [`preprocessed_data/`](https://github.com/CS-433/cs-433-project-2-rainbow-triangle/tree/master/preprocessed_data)
+and save them into the top level [`preprocessed_data/`](https://github.com/GiorgioMannarini/Machine-Learning-BERT/tree/master/preprocessed_data)
 folder.  
 **Total required space**: 365 MB  
 So you should have something like this:
@@ -140,7 +140,7 @@ Skip this section if you want to re-train the models.
 
 If you want to download the pretrained models (HIGHLY RECOMMENDED for the
 deep learning models) then download them from [this Drive link](https://drive.google.com/drive/folders/1o_exDi-gA0X1kSBTl9qUPpEGWZBX-MFy?usp=sharing)
-and save them into the top level [`weights/`](https://github.com/CS-433/cs-433-project-2-rainbow-triangle/tree/master/weights)
+and save them into the top level [`weights/`](https://github.com/GiorgioMannarini/Machine-Learning-BERT/tree/master/weights)
 folder.  
 **Total required space**: 6.21 GB  
 So you should have something like this:
@@ -160,7 +160,7 @@ So you should have something like this:
 ```
 
 ### Step 5. The actual run
-[`run.py`](https://github.com/CS-433/cs-433-project-2-rainbow-triangle/blob/master/run.py) is the
+[`run.py`](https://github.com/GiorgioMannarini/Machine-Learning-BERT/blob/master/run.py) is the
 main script which performs the data preprocessing, training (with hyperparameter
 tuning) and inference.
 
@@ -187,7 +187,7 @@ python3 run.py nbc -lp
 ```
 
 In all cases, the script will make a submission file and save it in the
-[`submissions/`](https://github.com/CS-433/cs-433-project-2-rainbow-triangle/tree/master/submissions).
+[`submissions/`](https://github.com/GiorgioMannarini/Machine-Learning-BERT/tree/master/submissions).
 
 
 ## Best submission on AIcrowd
@@ -196,11 +196,11 @@ computationally expensive model, we recommend to download the preprocessed
 tweets and trained model.
 
 * Download preprocessed tweets from [this Drive link](https://drive.google.com/drive/folders/16izsD7W0SG3AF094cW0JpcfnPFRF1aXY?usp=sharing)
-in the top level [`preprocessed_data/`](https://github.com/CS-433/cs-433-project-2-rainbow-triangle/tree/master/preprocessed_data)
+in the top level [`preprocessed_data/`](https://github.com/GiorgioMannarini/Machine-Learning-BERT/tree/master/preprocessed_data)
 folder.  
 **Total required space**: 365 MB
 * Download the model from [this Drive link](https://drive.google.com/drive/folders/1o_exDi-gA0X1kSBTl9qUPpEGWZBX-MFy?usp=sharing)
-in the top level [`weights/`](https://github.com/CS-433/cs-433-project-2-rainbow-triangle/tree/master/weights)
+in the top level [`weights/`](https://github.com/GiorgioMannarini/Machine-Learning-BERT/tree/master/weights)
 folder.  
 **Total required space**: 6.21 GB
 * Run:
