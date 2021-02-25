@@ -1,0 +1,11 @@
+Done for Random Forest!
+[Parallel(n_jobs=5)]: Using backend ThreadingBackend with 5 concurrent workers.
+[Parallel(n_jobs=5)]: Done  40 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=5)]: Done 190 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=5)]: Done 440 tasks      | elapsed:    0.7s
+[Parallel(n_jobs=5)]: Done 790 tasks      | elapsed:    1.0s
+[Parallel(n_jobs=5)]: Done 1000 out of 1000 | elapsed:    1.2s finished
+[Random Forest]
+CV Accuracy: 0.7656847280001109
+Params: {'n_estimators': 1000, 'n_jobs': 5}
+Saving Random Forest

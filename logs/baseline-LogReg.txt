@@ -1,0 +1,6 @@
+Done for Logistic Regression!  
+[Logistic Regression]
+CV Accuracy: 0.7647691515208687
+Params: {'C': 0.003981071705534973, 'n_jobs': 5}
+Saving Logistic Regression
+

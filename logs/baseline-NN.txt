@@ -1,0 +1,6 @@
+Done for Neural Network!
+[Neural Network]
+CV Accuracy: 0.7763903034300081
+Params: {'alpha': 0.25118864315095796, 'hidden_layer_sizes': (5,)}
+Saving Neural Network
+
